@@ -1,0 +1,47 @@
+I tensorflow/core/common_runtime/local_device.cc:25] Local device intra op parallelism threads: 32
+I tensorflow/core/common_runtime/local_session.cc:45] Local session inter op parallelism threads: 32
+Loading data sets ...
+done.
+
+Step 0: loss = 31237.40 (19.862 sec)
+Step 100: loss = 2286.93 (14.873 sec)
+Step 200: loss = 1648.26 (15.125 sec)
+Step 300: loss = 1181.02 (15.343 sec)
+Step 400: loss = 1024.04 (14.611 sec)
+Step 500: loss = 970.30 (15.416 sec)
+Step 600: loss = 876.71 (14.680 sec)
+Step 700: loss = 931.00 (14.790 sec)
+Step 800: loss = 775.13 (14.847 sec)
+Step 900: loss = 737.40 (14.749 sec)
+Training Data Eval:
+  Num examples: 10000   Num correct: 9670  Precision:  0.9670 
+
+Class:  other
+Test Data Eval:
+  Num examples: 10000   Num correct: 9954  Precision:  0.9954 
+
+Class:  cuda
+Test Data Eval:
+  Num examples: 10000   Num correct: 8693  Precision:  0.8693 
+
+Step 1000: loss = 750.44 (14.709 sec)
+Step 1100: loss = 751.02 (15.115 sec)
+Step 1200: loss = 756.36 (14.651 sec)
+Step 1300: loss = 746.82 (14.767 sec)
+Step 1400: loss = 756.31 (14.668 sec)
+Step 1500: loss = 682.08 (15.395 sec)
+Step 1600: loss = 727.55 (14.510 sec)
+Step 1700: loss = 673.86 (14.640 sec)
+Step 1800: loss = 718.29 (15.253 sec)
+Step 1900: loss = 718.00 (14.479 sec)
+Training Data Eval:
+  Num examples: 10000   Num correct: 9687  Precision:  0.9687 
+
+Class:  other
+Test Data Eval:
+  Num examples: 10000   Num correct: 9950  Precision:  0.9950 
+
+Class:  cuda
+Test Data Eval:
+  Num examples: 10000   Num correct: 8746  Precision:  0.8746 
+
